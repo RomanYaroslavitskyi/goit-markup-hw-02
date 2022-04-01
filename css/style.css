@@ -31,15 +31,15 @@ body {
   color: var(--second-tittle-color);
 }
 .header-logo-link {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway ", sans-serif;
   font-weight: 700;
-  font-size: 1.9;
-  line-height: 31px;
+  font-size: 26px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: #000000;
 }
 .style-half-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway ", sans-serif;
   color: #2196f3;
 }
 .header-link:hover,
@@ -61,6 +61,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-tittle-color);
+}
+.header-tel-link {
+  color: var(--text-tittle-color);
 }
 /************************HERO**********************/
 .conteiner-hero {
@@ -217,7 +220,7 @@ body {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
-font-size: 16;
+font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
