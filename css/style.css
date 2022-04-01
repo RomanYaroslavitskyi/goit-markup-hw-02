@@ -63,12 +63,25 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-tittle-color);
 }
+
+.header-mail-link:hover,
+.header-mail-link:focus{
+  color: var(--accent-color);
+}
+
+
+.header-tel-link:hover,
+.header-tel-link:focus{
+  color: var(--accent-color);
+}
 .header-mail-link {
   color: var(--text-tittle-color);
+  
   
 }
 .header-tel-link{
   color :var(--text-tittle-color);
+  
 }
 /************************HERO**********************/
 .conteiner-hero {
