@@ -38,8 +38,9 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.style-half-logo {
+.style-logo {
   font-family: "Raleway ", sans-serif;
+  font-weight: 700;
   color: #2196f3;
 }
 .header-link:hover,
@@ -62,8 +63,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-tittle-color);
 }
-.header-tel-link {
+.header-mail-link {
   color: var(--text-tittle-color);
+  
+}
+.header-tel-link{
+  color :var(--text-tittle-color);
 }
 /************************HERO**********************/
 .conteiner-hero {
