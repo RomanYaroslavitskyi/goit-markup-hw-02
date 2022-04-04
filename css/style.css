@@ -75,11 +75,25 @@ body {
   color: var(--accent-color);
 }
 .header-mail-link {
+  font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
   color: var(--text-tittle-color);
   
   
 }
 .header-tel-link{
+  font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
   color :var(--text-tittle-color);
   
 }
@@ -178,42 +192,51 @@ body {
 .contacts {
   background-color: var(--basic-color);
 }
-.contacts-logo {
+.contacts-logo-link {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+  color: var(--first-tittle-color);
 }
 .contacts-list {
 }
 .contacts-item {
 }
+.adress {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+  color: var(--first-tittle-color);
+}
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
 }
-.contacts-link {
+.contacts-mail-link,.contacts-tel-link {
+  font-family:'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
-.contacts-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--contacts-color);
+.contacts-tel-link {
+  
+  
 }
 .adress:hover,
 .adress:focus {
   color: var(--accent-color);
 }
 
-.adress {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
-  color: var(--first-tittle-color);
-}
 /*-------------II page Profile---------*/
 /*----------Filtr------------*/
 .catalog{
